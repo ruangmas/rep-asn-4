@@ -1,4 +1,5 @@
-# ASN6. Formative Assessment
+# Paper Replication Assignment 4: Make Appendix Figure 2A
+FIRE Sustainability Analytics
 
 ## Introduction
 
@@ -17,10 +18,7 @@ example, the graph below is considered an acceptable replica.
 
 ## Instructions
 
-1.  Clone the repository spring-asn-6-*YourUsername* to your Posit Cloud
-    account.
-
-2.  Read all the CSV files inside the EPA AMPD folder into the RStudio
+1.  Read all the CSV files inside the EPA AMPD folder into the RStudio
     Environment. These files contain NOx emissions data from each
     electricity-generating facility for each month-year. Important
     variables include:
@@ -40,7 +38,7 @@ example, the graph below is considered an acceptable replica.
     electricity-generating facility. We can assume that NA values
     indicate that no NOx was emitted in that unit-month.
 
-3.  Read the counties_nbp.csv file into the RStudio Environment. This
+2.  Read the counties_nbp.csv file into the RStudio Environment. This
     file is a list of all counties that are used in the Deschênes et
     al. (2017) paper. Important variables include:
 
@@ -54,16 +52,8 @@ example, the graph below is considered an acceptable replica.
     **nbp** - An indicator of whether the county is regulated by the NOx
     Budget Program or not.
 
-4.  Use what you have learned, class materials and online resources to
+3.  Use what you have learned, class materials and online resources to
     replicate the figure to the best of your ability.
 
 Hint: To calculate summer-equivalent NOx emissions in the winter, you
 need to multiply total NOx emissions during the winter by 5/7.
-
-5.  Let Thanicha or a PRM know once you have finished making the graph.
-    To test your understanding, we will ask you to modify your script on
-    the spot.
-
-6.  Once your modifications are approved, you will pass the assessment.
-    The deadline to pass the assessment is Monday April 1, 2024 at 6:00
-    pm.
