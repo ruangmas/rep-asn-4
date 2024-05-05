@@ -1,0 +1,69 @@
+# ASN6. Formative Assessment
+
+## Introduction
+
+To test each student’s proficiency in basic R programming for data
+preparation and visualization, each student will use the given data and
+what they have learned to make the closest version of Figure 2A from the
+Appendix section of Deschênes et al. (2017). The original figure is
+shown below.
+
+<img src="fig2a.png" data-fig-align="center" width="405" />
+
+Your figure does not have to aesthetically match the original graph. For
+example, the graph below is considered an acceptable replica.
+
+<img src="rep_fig2a.png" data-fig-align="center" width="350" />
+
+## Instructions
+
+1.  Clone the repository spring-asn-6-*YourUsername* to your Posit Cloud
+    account.
+
+2.  Read all the CSV files inside the EPA AMPD folder into the RStudio
+    Environment. These files contain NOx emissions data from each
+    electricity-generating facility for each month-year. Important
+    variables include:
+
+    **State** - The state where the electricity-generating facility is
+    located
+
+    **County** - The county where the electricity-generating facility is
+    located. Note that the same county name can appear in different
+    states.
+
+    **Month** - The month number in the year
+
+    **Year** - The year number
+
+    **NOx..tons.** - The quantity of NOx emissions from each
+    electricity-generating facility. We can assume that NA values
+    indicate that no NOx was emitted in that unit-month.
+
+3.  Read the counties_nbp.csv file into the RStudio Environment. This
+    file is a list of all counties that are used in the Deschênes et
+    al. (2017) paper. Important variables include:
+
+    **State** - The state where the electricity-generating facility is
+    located
+
+    **County** - The county where the electricity-generating facility is
+    located. Note that the same county name can appear in different
+    states.
+
+    **nbp** - An indicator of whether the county is regulated by the NOx
+    Budget Program or not.
+
+4.  Use what you have learned, class materials and online resources to
+    replicate the figure to the best of your ability.
+
+Hint: To calculate summer-equivalent NOx emissions in the winter, you
+need to multiply total NOx emissions during the winter by 5/7.
+
+5.  Let Thanicha or a PRM know once you have finished making the graph.
+    To test your understanding, we will ask you to modify your script on
+    the spot.
+
+6.  Once your modifications are approved, you will pass the assessment.
+    The deadline to pass the assessment is Monday April 1, 2024 at 6:00
+    pm.
